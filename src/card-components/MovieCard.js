@@ -29,11 +29,16 @@ const posterMap = {
 
 export default class MovieCard extends Component {
 
+  // CustomButton.defaultProps = {
+  //   color: 'blue'
+  // };
+  
   render() {
     return (
       <div className="movie-card">
         {/* which component should receive which props? */}
         <CardFront />
+        {/* style={{backgroundImage: `url(${prop})`}} */}
         <CardBack />
       </div>
     )
