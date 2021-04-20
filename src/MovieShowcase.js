@@ -13,7 +13,60 @@ export default class MovieShowcase extends Component {
     return (
       <div id="movie-showcase">
         {this.generateMovieCards()}
-        <MovieCard />
+        <MovieCard 
+          title={'Choux and Maru go to Istanbul'}
+          IMDBRating={3}
+          genres={['cats', 'adventure', 'romance']}
+          poster={'choux-maru-istanbul'} 
+        />
+        <MovieCard 
+          title={'Choux and Maru go to Istanbul'}
+          IMDBRating={3}
+          genres={['cats', 'adventure', 'romance']}
+          poster={'choux-maru-istanbul'} 
+        />
+        <MovieCard 
+          title={'Choux and Maru go to Istanbul'}
+          IMDBRating={3}
+          genres={['cats', 'adventure', 'romance']}
+          poster={'choux-maru-istanbul'} 
+        />
+        <MovieCard 
+          title={'Choux and Maru go to Istanbul'}
+          IMDBRating={3}
+          genres={['cats', 'adventure', 'romance']}
+          poster={'choux-maru-istanbul'} 
+        />
+        <MovieCard 
+          title={'Choux and Maru go to Istanbul'}
+          IMDBRating={3}
+          genres={['cats', 'adventure', 'romance']}
+          poster={'choux-maru-istanbul'} 
+        />
+        <MovieCard 
+          title={'Choux and Maru go to Istanbul'}
+          IMDBRating={3}
+          genres={['cats', 'adventure', 'romance']}
+          poster={'choux-maru-istanbul'} 
+        />
+        <MovieCard 
+          title={'Choux and Maru go to Istanbul'}
+          IMDBRating={3}
+          genres={['cats', 'adventure', 'romance']}
+          poster={'choux-maru-istanbul'} 
+        />
+        <MovieCard 
+          title={'Choux and Maru go to Istanbul'}
+          IMDBRating={3}
+          genres={['cats', 'adventure', 'romance']}
+          poster={'choux-maru-istanbul'} 
+        />
+        <MovieCard 
+          title={'Choux and Maru go to Istanbul'}
+          IMDBRating={3}
+          genres={['cats', 'adventure', 'romance']}
+          poster={'choux-maru-istanbul'} 
+        />
       </div>
     )
   }
